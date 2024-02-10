@@ -1,0 +1,165 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+:root{
+    --bg:rgb(226, 243, 223);
+}
+
+.navbar {
+    height: 10vh;
+    width: 100vw;
+    /* background-color:rgb(227, 226, 226) ; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:2vh;
+    position: fixed;
+    background-color: rgb(111, 157, 111);
+    z-index: 10;
+    padding-right: 8vh;
+    
+}
+
+.logo img{
+    height: 10vh;
+ 
+    
+}
+
+
+
+
+.community {
+    
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 5px;
+}
+#naam{
+    height: 100%;
+    width:40%;
+    font-size: 40px;
+    background-color: rgb(111, 157, 111);
+}
+#naam>img{
+    height: 70px;
+    width: 70px;
+}
+#name{
+    margin: 20%;
+}
+#naam *{
+    background-color: rgb(111, 157, 111);
+    text-align: center;
+}
+.dis,#discription {
+    margin-top: 25px;
+    background-color: rgb(111, 157, 111);
+}
+.notification * {
+    font-size: 40px;
+}
+.notificaton:hover {
+    color:white;
+}
+
+.profilebutton {
+    background-color: rgb(111, 157, 111);
+
+}
+
+.profile:hover{
+    color: aliceblue;
+}
+
+.profile {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main {
+    padding-top: 12vh;
+    background-color: black;
+    height: 100vh;
+    
+}
+
+.main *{
+    background-color: white;
+}
+
+.allcards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.allcards>*{
+    width:40%;
+}
+.allcards img {
+    height: 500px;
+    width: 100%;
+}
+
+.caption,.caption p{
+    background-color: rgb(234, 219, 201);
+}
+
+
+
+.explore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  position: fixed;
+  right: 0px;
+  top: 0;
+  width: 16.9vw;
+  height: 100vh;
+  padding-top: 18vh;
+  background-color: var(--bg);
+}
+
+.explore>h2 {
+    margin: 20px;
+    font-size: 2rem;
+    background-color: var(--bg);
+}
+
+.newcom {
+    height: 50px;
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: 2%;
+    border-radius: 18px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    
+}
+
+.newcom:hover{
+    border: 2px solid rgb(111, 157, 111);
+}
+.newcom *{
+    background-color: white;
+    
+}
+
+.newcom>img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 5px;
+}
